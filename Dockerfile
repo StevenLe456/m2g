@@ -149,7 +149,7 @@ RUN chmod -R 777 /m2g_atlases
 # Grab m2g from deploy.
 RUN git clone --branch main https://github.com/StevenLe456/m2g.git /m2g && \
     cd /m2g && \
-    pip3,8 install numpy && \
+    pip3.8 install numpy && \
     pip3.8 install -r /m2g/requirements.txt &&\
     pip3.8 install .
 RUN chmod -R 777 /usr/local/bin/m2g_bids
