@@ -1,0 +1,22 @@
+*.pyc
+*.DS_Store
+*.swp
+*.m~
+*.graphml
+*.egg*
+*.so
+build/
+credentials.csv
+my_credentials.csv
+scratch/
+env/
+dist/
+.vscode
+*.ipynb_checkpoints/
+.pytest_cache/
+_.py
+_.ipynb
+.idea
+
+# sphinx documentation
+docs/_build/*
