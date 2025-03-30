@@ -5,5 +5,4 @@ graspologic==3.3.0
 networkx==3.1
 nibabel==5.1.0
 nilearn==0.10.0
-numpy
 matplotlib==3.7.1
