@@ -147,7 +147,7 @@ RUN chmod -R 777 /m2g_atlases
 
 
 # Grab m2g from deploy.
-RUN git clone --branch deploy https://github.com/neurodata/m2g /m2g && \
+RUN git clone --branch main https://github.com/StevenLe456/m2g.git /m2g && \
     cd /m2g && \
     pip3.8 install -r /m2g/requirements.txt &&\
     pip3.8 install .
